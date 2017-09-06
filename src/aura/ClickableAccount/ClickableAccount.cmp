@@ -1,0 +1,9 @@
+<aura:component description="ClickableAccount" >
+	<aura:attribute name="account" type="Account" />
+	<aura:attribute name="content" type="Aura.Component[]" />
+	<aura:registerEvent name="ClickedAccount" type="c:SelectedAccount" />
+
+	<span onclick="{!c.handleClick}">
+		{!v.content}
+	</span>
+</aura:component>
