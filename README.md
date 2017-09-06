@@ -3,7 +3,7 @@
  * Salesforce Developer Edition Sandbox
 	* with My Domain enabled
 	* running Summer '17 or later
- * Force.com Migration Tool installed
+ * [Force.com Migration Tool](https://github.com/jlyon87/FMT-Starter-Kit) installed
 
 ### Install Guide
  1. Clone this repository.
