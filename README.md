@@ -11,4 +11,10 @@
  3. Call ant script
 	* _Windows_ - Double Click the antDeployNoTests.bat
 	* _MAC_ - Open Terminal to the local repo root and call `ant deployNoTests`
- 4. Login to you dev org and open the LTNG Train App
+
+### NY Times API Setup
+ 1. Go to [developer.nytimes.com](https://developer.nytimes.com/) and register for an API Key.
+ 2. Create a new record on the APIConfig__c Custom Setting
+	* Name: NYTimes
+	* URL__c: "https://api.nytimes.com/svc/search/v2/articlesearch.json"
+	* Key__c: _your api key_
