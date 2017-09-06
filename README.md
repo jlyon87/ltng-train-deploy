@@ -1,6 +1,8 @@
 # Lightning Training
 ### Prerequisites
- * Salesforce Developer Edition Sandbox with My Domain enabled
+ * Salesforce Developer Edition Sandbox
+	* with My Domain enabled
+	* running Summer '17 or later
  * Force.com Migration Tool installed
 
 ### Install Guide
