@@ -1,4 +1,5 @@
 ({
-	myAction : function(component, event, helper) {
+	clickAccount: function(cmp, event, helper) {
+		helper.fireSelectedAccount(cmp);
 	}
 })

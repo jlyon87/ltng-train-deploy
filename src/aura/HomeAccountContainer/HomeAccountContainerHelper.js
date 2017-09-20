@@ -12,7 +12,6 @@
 			if(status === "SUCCESS") {
 				var accounts = res.getReturnValue();
 				cmp.set("v.accounts", accounts);
-				console.log("accounts: ", accounts);
 
 				this.fireSelectedAccount(cmp);
 

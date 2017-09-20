@@ -1,4 +1,4 @@
-<aura:component description="ContactDataContainer" access="global" implements="flexipage:availableForAllPageTypes" controller="ContactAuraService" >
+<aura:component description="RelatedContactsContainer" access="global" implements="flexipage:availableForAllPageTypes" controller="RelatedContactsAuraService" >
 	<aura:attribute name="account" type="Account" />
 	<aura:attribute name="contacts" type="Contact[]" />
 

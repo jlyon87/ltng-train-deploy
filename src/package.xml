@@ -1,30 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AccountAuraService</members>
         <members>AccountDA</members>
         <members>AccountDAI</members>
-        <members>ContactAuraService</members>
         <members>ContactDA</members>
         <members>ContactDAI</members>
         <members>ContactSearchAuraService</members>
+        <members>HomeAccountAuraService</members>
         <members>NYT_ArticleSearch</members>
         <members>NYT_ArticleSearchAuraService</members>
         <members>NewContactAuraService</members>
+        <members>RelatedContactsAuraService</members>
         <name>ApexClass</name>
     </types>
     <types>
         <members>AccountCard</members>
-        <members>AccountDataContainer</members>
         <members>AccountGrid</members>
         <members>AccountSummary</members>
         <members>ClickableAccount</members>
-        <members>ContactDataContainer</members>
         <members>ContactRow</members>
         <members>ContactSearchContainer</members>
         <members>ContactSearchForm</members>
         <members>ContactSearchResults</members>
         <members>ContactTable</members>
+        <members>HomeAccountContainer</members>
         <members>NYT_ArticleCard</members>
         <members>NYT_ArticleGrid</members>
         <members>NYT_ArticleSearchAPI</members>
@@ -33,6 +32,7 @@
         <members>NavigateSObjectLink</members>
         <members>NewContactContainer</members>
         <members>NewContactForm</members>
+        <members>RelatedContactsContainer</members>
         <members>SelectedAccount</members>
         <name>AuraDefinitionBundle</name>
     </types>

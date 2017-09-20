@@ -6,7 +6,7 @@
                 <name>limitter</name>
                 <value>9</value>
             </componentInstanceProperties>
-            <componentName>AccountDataContainer</componentName>
+            <componentName>HomeAccountContainer</componentName>
         </componentInstances>
         <name>top</name>
         <type>Region</type>
@@ -21,7 +21,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>ContactDataContainer</componentName>
+            <componentName>RelatedContactsContainer</componentName>
         </componentInstances>
         <name>sidebar</name>
         <type>Region</type>

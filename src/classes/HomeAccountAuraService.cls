@@ -1,4 +1,4 @@
-public with sharing class AccountAuraService {
+public with sharing class HomeAccountAuraService {
 
 	private static AccountDAI accountAccessor = new AccountDA();
 	public static AccountDAI AccountDI {private get; set{

@@ -1,4 +1,4 @@
-<aura:component description="AccountDataContainer" access="global" implements="flexipage:availableForAllPageTypes" controller="AccountAuraService">
+<aura:component description="HomeAccountContainer" access="global" implements="flexipage:availableForAllPageTypes" controller="HomeAccountAuraService">
 	<aura:attribute name="accounts" type="Account[]" />
 	<aura:attribute name="limitter" type="Integer" default="10" />
 

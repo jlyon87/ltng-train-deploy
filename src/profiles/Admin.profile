@@ -6,19 +6,11 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccountAuraService</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AccountDA</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountDAI</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ContactAuraService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -34,6 +26,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HomeAccountAuraService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>NYT_ArticleSearch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -43,6 +39,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>NewContactAuraService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RelatedContactsAuraService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>

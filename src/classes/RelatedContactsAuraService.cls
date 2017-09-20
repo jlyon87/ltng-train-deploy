@@ -1,4 +1,4 @@
-public with sharing class ContactAuraService {
+public with sharing class RelatedContactsAuraService {
 
 	private static ContactDAI contactAccessor = new ContactDA();
 	public static ContactDAI ContactDI {private get; set{

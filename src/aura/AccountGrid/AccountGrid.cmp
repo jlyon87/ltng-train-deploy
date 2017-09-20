@@ -8,7 +8,7 @@
 				<c:AccountCard account="{!acc}">
 					<aura:set attribute="content">
 
-						<c:ClickableAccount account="{!acc}">
+						<c:ClickableAccount account="{!acc}" >
 							<aura:set attribute="content">
 								<c:AccountSummary account="{!acc}" />
 							</aura:set>

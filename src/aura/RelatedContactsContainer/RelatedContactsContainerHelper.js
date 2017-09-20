@@ -18,7 +18,6 @@
 			if(status === "SUCCESS") {
 				var contacts = response.getReturnValue();
 				cmp.set("v.contacts", contacts);
-				console.log("contacts", contacts);
 			} else {
 				console.log("Error state with: " + status);
 				console.log(response.getError());

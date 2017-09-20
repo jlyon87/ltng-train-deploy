@@ -10,7 +10,6 @@
 
 			if(state === "SUCCESS") {
 				var data = JSON.parse(response.getReturnValue());
-				console.log("data", data);
 				cmp.set("v.data", data);
 			} else {
 				console.log("Error with state: " + state);
